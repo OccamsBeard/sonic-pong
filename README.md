@@ -29,7 +29,21 @@ We're using the programming language Ruby, QML, Qt5 and SuperCollider for this. 
 Also, audio server _JACK must be running_.
 
 ## Linux
-There currently is no Gem-file (sorry, but we're not not quite there, yet), so clone the repository to your local drive and start
-`ruby pathToYourClonedRepository/pong.rb`
-from the command line or just `cd` into your cloned repository and start with
+There currently is no Gem-file (sorry, but we're not not quite there, yet), so clone the repository to your local drive and start\\
+`ruby pathToYourClonedRepository/pong.rb`\\
+from the command line or just `cd` into your cloned repository and start with\\
 `ruby ./pong.rb`.
+
+# Usage
+## Right paddle
++ Move up (`up-arrow`) and down (`down-arrow`) along the y-axis
++ If you miss the incoming ball, your opponent gains a point
+## Left Paddle
++ Move up (`w`) and down (`s`) along the y-axis
++ If you miss the incoming ball, your opponent gains a point
+## Ball
++ The ball is to be hit, so it won't leave the court on left or right side
++ If it does, your opponent will gain a point
++ The ball will bounce off the upper and lower sides of the court
++ In this case the ball will be served from the middle
++ Currently this will go on indefinitely
