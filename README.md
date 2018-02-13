@@ -40,9 +40,11 @@ from the command line or just `cd` into your cloned repository and start with\\
 ## Right paddle
 + Move up (`up-arrow`) and down (`down-arrow`) along the y-axis
 + If you miss the incoming ball, your opponent gains a point
+
 ## Left Paddle
 + Move up (`w`) and down (`s`) along the y-axis
 + If you miss the incoming ball, your opponent gains a point
+
 ## Ball
 + The ball is to be hit, so it won't leave the court on left or right side
 + If it does, your opponent will gain a point
