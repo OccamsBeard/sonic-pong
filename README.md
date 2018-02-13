@@ -5,6 +5,8 @@ Linux
 
 SonicPong currently is a final project for a university course and is **still in its development phase**. It may or may not be maintained by us further after February 2018.
 
+[![Screenshot]](https://github.com/OccamsBeard/sonicPong/blob/gh-pages/screenschotMac42.png)
+
 # Yeah, but what exactly is the project?
 
 SonicPong aims to become an audio game version of the classic game Pong. It will have a GUI and AUI for gaming. Currently we're working on supporting one audio and one visual player or two visual players. Somewhere in the future we're hoping to find the time and implement a version for two audio players. and some extra features.
@@ -49,5 +51,4 @@ from the command line or just `cd` into your cloned repository and start with\\
 + Currently this will go on indefinitely
 
 # How is this relevant for teaching high school students?
-(Remember, this is project is meant to have educational aspects!)\\
-Single methods, especially `class Ball` and even more so the test classes, could be bold examples for analyzing in class. We see the project fit for teaching soft skills in software project management as well as, in terms of content, some introductory concepts of object-oriented programming. The project itself would be suitable as a final project at the end of a unit for gaining practical knowledge regarding previously discussed content of the curriculum.
+Remember, this is project is meant to have educational aspects! So, single methods, especially `class Ball` and even more so the test classes, could be bold examples for analyzing in class. We see the project fit for teaching soft skills in software project management as well as, in terms of content, some introductory concepts of object-oriented programming. The project itself would be suitable as a final project at the end of a unit for gaining practical knowledge regarding previously discussed content of the curriculum.
