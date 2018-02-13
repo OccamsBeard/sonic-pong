@@ -1,11 +1,19 @@
-## Site Title
-# Subtitle
+# Currently supported platforms
+Linux
 
-This is a markdown document.
+## What is this?
 
-+ This is a list item
-+ this is another one
-- what's this? this was made with a minus
+SonicPong currently is a final project for a university course and is **still in its development phase**. It may or may not be maintained by us further after February 2018.
 
----
-What does this do?
+## Yeah, but what exactly is the project?
+
+SonicPong aims to become an audio game version of the classic game Pong. It will have a GUI and AUI for gaming. Currently we're working on supporting one audio and one visual player or two visual players. Somewhere in the future we're hoping to find the time and implement a version for two audio players. and some extra features.
+
+## Pong as audio game, how does that work?
+
+Our current approach is the following:
++ The ball's position on the y-axis will be represented by its position in the stereo spectrum relative to the paddle of an audio player
++ The balls's position on the x-axis will be represented by the level of pitch in some way
+
+## What's the current state of development?
+We're using the programming language Ruby, QML, Qt5 and SuperCollider for this. At the moment, the most promising approach is the latest commit on branch `scruby` (we're not actually using scruby!). It currently works on Linux only and uses Linux' audio server JACK.
