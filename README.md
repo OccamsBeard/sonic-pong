@@ -5,7 +5,7 @@ Linux
 
 SonicPong currently is a final project for a university course and is **still in its development phase**. It may or may not be maintained by us further after February 2018.
 
-<img src="https://github.com/OccamsBeard/sonicPong/blob/gh-pages/screenschotMac42.png" alt="hi" class="inline"/>
+[![Screenshot]https://github.com/OccamsBeard/sonicPong/blob/gh-pages/screenschotMac42.png](https://github.com/OccamsBeard/sonicPong/blob/gh-pages)
 
 # Yeah, but what exactly is the project?
 
