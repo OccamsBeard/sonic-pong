@@ -25,7 +25,11 @@ We're using the programming language Ruby, QML, Qt5 and SuperCollider for this. 
 + [Ruby-QML](https://github.com/seanchas116/ruby-qml),
 + Qt5,
 + SuperCollider.
+
 Also, audio server _JACK must be running_.
 
 ## Linux
-There currently is no Gem-file (sorry, but we're not not quite there, yet), so clone the repository to your local drive and start `ruby pathToYourClonedRepository/pong.rb` from the command line or just cd into your cloned repository and start with `ruby ./pong.rb`.
+There currently is no Gem-file (sorry, but we're not not quite there, yet), so clone the repository to your local drive and start
+`ruby pathToYourClonedRepository/pong.rb`
+from the command line or just `cd` into your cloned repository and start with
+`ruby ./pong.rb`.
