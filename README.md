@@ -17,3 +17,15 @@ Our current approach is the following:
 
 ## What's the current state of development?
 We're using the programming language Ruby, QML, Qt5 and SuperCollider for this. At the moment, the most promising approach is the latest commit on branch `scruby` (we're not actually using scruby!). It currently works on Linux only and uses Linux' audio server JACK.
+
+## Installation
+# Requirements
++ Linux
++ Ruby 2.4.0 (or later),
++ [Ruby-QML](https://github.com/seanchas116/ruby-qml),
++ Qt5,
++ SuperCollider.
+Also, audio server _JACK must be running_.
+
+# Linux
+There currently is no Gem-file (sorry, but we're not not quite there, yet), so clone the repository to your local drive and start `ruby pathToYourClonedRepository/pong.rb` from the command line or just cd into your cloned repository and start with `ruby ./pong.rb`.
