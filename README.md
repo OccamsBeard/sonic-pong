@@ -47,3 +47,7 @@ from the command line or just `cd` into your cloned repository and start with\\
 + The ball will bounce off the upper and lower sides of the court
 + In this case the ball will be served from the middle
 + Currently this will go on indefinitely
+
+# How is this relevant for teaching high school students?
+(Remember, this is project is meant to have educational aspects!)\\
+Single methods, especially `class Ball` and even more so the test classes, could be bold examples for analyzing in class. We see the project fit for teaching soft skills in software project management as well as, in terms of content, some introductory concepts of object-oriented programming. The project itself would be suitable as a final project at the end of a unit for gaining practical knowledge regarding previously discussed content of the curriculum.
